@@ -9,7 +9,7 @@ import AppProviders from '@/components/AppProviders'
 import setupApp from '@/targets/browser/setupApp'
 import AppRouter from '@/components/AppRouter'
 
-// We need to force light mode because Linagora AI embedded app
+// We need to force light mode because Twake Assistant embedded app
 // does not support dark mode
 localStorage.setItem('ui-theme-type', 'light')
 

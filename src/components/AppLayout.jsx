@@ -8,7 +8,7 @@ const AppLayout = () => {
   return (
     <>
       <BarCenter>
-        <BarTitle>Linagora AI</BarTitle>
+        <BarTitle>Twake Assistant</BarTitle>
       </BarCenter>
       <BarComponent searchOptions={{ enabled: false }} />
       <Outlet />
