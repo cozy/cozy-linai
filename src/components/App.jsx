@@ -14,7 +14,7 @@ const App = () => {
     <iframe
       id="embeddedApp"
       src={isReady ? urlToLoad : null}
-      allow="clipboard-read; clipboard-write; camera; microphone"
+      allow="clipboard-read; clipboard-write; camera; microphone; display-capture"
     ></iframe>
   )
 }
